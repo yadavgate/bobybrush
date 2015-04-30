@@ -20,7 +20,14 @@
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/touchTouch.jquery.js"></script>
 
+<script>
+ $(window).load(function(){
+  <!-- $().UItoTop({ easingType: 'easeOutQuart' }); -->
+  $('#stuck_container').tmStickUp({}); 
+    $('.gallery .gall_item').touchTouch();
+ }); 
 
+</script>
 
 <style >
 @media (min-width: 900px) {
