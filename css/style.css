@@ -433,7 +433,7 @@ header .header_top {
 /****Content****/
 #content {
   background-color: #ffffff;
-  padding-bottom: 93px;
+  /* padding-bottom: 93px; */
   background: #fffced url(../images/content_img.jpg) center 0 no-repeat fixed;
 }
 /****Non suppage set****/
@@ -556,7 +556,7 @@ header .header_top {
   position: relative;
   margin-top: 2px;
   margin-bottom: 31px;
-  padding-bottom: 68px;
+  /* padding-bottom: 68px; */
   overflow: hidden;
 }
 .box .gall_item {
