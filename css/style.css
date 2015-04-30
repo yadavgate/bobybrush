@@ -426,8 +426,8 @@ header h1.logo {
 }
 header .header_top {
   letter-spacing: -1px;
-  font: 300 30px/48px 'Dosis', sans-serif;
-  padding: 182px 0 198px;
+  /* font: 300 30px/48px 'Dosis', sans-serif; */
+  padding: 182px 0 170px;
   background: url(../images/slider.jpg) center 0 no-repeat;
 }
 /****Content****/
