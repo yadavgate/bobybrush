@@ -358,6 +358,9 @@ table {
     margin-left: -20px;
     *zoom: 1;
   }
+  .bac-image {
+	height: 290px;
+  }
   .row:before,
   .row:after {
     display: table;
@@ -472,6 +475,9 @@ table {
   .box-width {
 	width: 234px !important;
   }
+  .bac-image {
+	height: 235px !important;
+  }
   [class*="grid_"] {
     float: none;
     display: block;
@@ -506,6 +512,9 @@ table {
     margin-left: 0;
   }
   .box-width {
-	width: 159px !important;
+	width: 267px !important;
+  }
+  .img1{
+	width:45% !important;
   }
 }
