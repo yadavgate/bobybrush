@@ -428,7 +428,8 @@ header .header_top {
   letter-spacing: -1px;
   /* font: 300 30px/48px 'Dosis', sans-serif; */
   padding: 85px 0 130px;
-  background: url(../images/slider.jpg) center 0 no-repeat;
+  background: url(http://googledrive.com/host/0B6tx7vmi_rpMfkw0blh6T3B3YUpQeHIwXzhiaUFUVEtDXzZPM3lPa1MtZEpoYnJlV21MSVk/logo.jpg) 0 no-repeat;
+  -webkit-background-size : cover;
 }
 /****Content****/
 #content {
