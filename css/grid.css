@@ -256,6 +256,9 @@ table {
     margin-left: -20px;
     *zoom: 1;
   }
+  .box-width {
+	width: 254px !important;
+  }
   .row:before,
   .row:after {
     display: table;
