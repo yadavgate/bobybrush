@@ -361,9 +361,9 @@ table {
     margin-left: -20px;
     *zoom: 1;
   }
-  .bac-image {
+ /* .bac-image {
 	height: 290px;
-  }
+  } */
   .row:before,
   .row:after {
     display: table;
@@ -478,9 +478,9 @@ table {
   .box-width {
 	width: 234px !important;
   }
-  .bac-image {
+  /* .bac-image {
 	height: 235px !important;
-  }
+  } */
   [class*="grid_"] {
     float: none;
     display: block;

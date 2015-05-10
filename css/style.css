@@ -879,6 +879,7 @@ a.color1:hover {
     margin-bottom: 20px;
     float: none;
     left: 0;
+    font-size: 32px !important;
   }
   header h1 a {
     margin: 0 auto;
