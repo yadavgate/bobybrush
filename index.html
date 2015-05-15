@@ -17,6 +17,9 @@
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/jquery.shuffle-images.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.prettySocial.min.js"></script>
+
 <script>
  $(window).load(function(){
   $().UItoTop({ easingType: 'easeOutQuart' });
@@ -320,11 +323,19 @@
         
 		  </div>
 		  <div class="grid_4">
-			<h3 style="padding:0px;">Follow me</h3>
-			<a class="pluginShareButtonLink fb-share" href="http://www.facebook.com/sharer.php?app_id=826254740777061&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.bobybrush.com%2F&amp;display=popup&amp;ref=plugin" id="u_0_1" title="" onclick="window.open(this.href,'nom_Popup','&#8203;height=300 , width=200 ,location=no ,resizable=yes ,scrollbars=yes');return false;" data-original-title="facebook"><div class="fa fa-facebook"></div></a>
-			<a  href="https://twitter.com/share" data-related="twitterdev" data-size="large" data-count="none"><div class="fa fa-twitter"></div></a>
-			<a href="#"><div class="fa fa-google-plus"></div></a>
-			  
+			<h3 style="padding:0px;">Sharing on</h3>
+			<!-- <a class="pluginShareButtonLink fb-share" href="http://www.facebook.com/sharer.php?app_id=826254740777061&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.bobybrush.com%2F&amp;display=popup&amp;ref=plugin" id="u_0_1" title="" onclick="window.open(this.href,'nom_Popup','&#8203;height=300 , width=200 ,location=no ,resizable=yes ,scrollbars=yes');return false;" data-original-title="facebook"><div class="fa fa-facebook"></div></a> -->
+			
+			<a href="#" data-type="facebook" data-url="www.bobybrush.com"  class="prettySocial fa fa-facebook"></a>
+			
+			<a href="#" data-type="googleplus" data-url="www.bobybrush.com" data-description="BobyBrush" class="prettySocial fa fa-google-plus"></a>
+			
+			<a href="#" data-type="twitter" data-url="www.bobybrush.com" data-description="www.bobybrush.com" data-via="BobyBrush" class="prettySocial fa fa-twitter"></a> 
+			
+			<!-- <a class="fa fa-google-plus" href="https://plus.google.com/share?url=www.bobybrush.com" onclick="javascript:window.open(this.href,
+				'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=300');return false;">
+			</a> -->
+			 
 		  </div>
       </div>
     </div>
@@ -336,7 +347,11 @@
               footer
 =================================-->
 
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+
+
+<script type="text/javascript" class="source">
+	$('.prettySocial').prettySocial();
+</script>
 <script language=JavaScript>
 <!--
 
